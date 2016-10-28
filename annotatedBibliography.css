@@ -1,0 +1,19 @@
+h2 {
+	margin: 0px;
+	margin-bottom: 0.2em;
+}
+div.abItem {
+	margin-bottom: 0.1em;
+	border-bottom: 1px dashed bisque;
+	border: 1px dashed black;
+	border-radius: 10px;
+	padding: 1em;
+	width: 30em;
+}
+
+@media print {
+	div.abItem {
+		page-break-inside: avoid;
+		padding-bottom: 5em;
+	}
+}
