@@ -29,7 +29,7 @@ d3.csv(dataUrl,
 			.append("div")
 			.attr("class", "abItem")
 			.html(function(d) {
-				return "<H2>" + d.what + "</H2>"
+				return "<H2>" + d.what + "<span class='id'>" + d.id + "</span>" + "</h2>"
 				+ "Who: " + "<em>" + d.who + "</em>" + ", " + d.when + "<br>"
 				+ "Why: " + d.why + "<br><br>"
 				+ "Relevance here: " + d.relevance + ". "

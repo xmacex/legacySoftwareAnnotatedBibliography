@@ -11,6 +11,12 @@ div.abItem {
 	width: 30em;
 }
 
+div.abItem h2 span.id {
+	font-style: italic;
+	float: right;
+	font-size: smaller;
+}
+
 @media print {
 	div.abItem {
 		page-break-inside: avoid;
